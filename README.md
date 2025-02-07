@@ -11,24 +11,34 @@ Este projeto é um aplicativo full-stack que integra:
 
 ### Pré-requisitos
 
-- Docker e Docker Compose devem estar instalados.
-- Verifique com
+- Antes de executar este projeto, certifique-se de ter o Docker instalado:
+- Baixe o [Docker](https://www.docker.com/products/docker-desktop/) e instale-o em seu sistema
+- Docker deve estar instalado.
+- Verifique a instalação executando no terminal
 
 ```bash
 docker --version
 docker-compose --version
 ```
 
-### Build and Run
+### Passo 1: clonar o repositório
 
-1. Navegue até a raiz do projeto (flask-react/).
-2. Execute o comando:
+no terminal ou execute:
+
+```bash
+git clone https://github.com/fabianorong/anfitrioesdealuguel
+cd anfitrioesdealuguel
+```
+
+### Build and Run com Docker
+
+Execute o comando:
 
 ```bash
 docker-compose up --build
 ```
 
-3. Aguarde o processo de build e inicialização dos containers.
+Aguarde o processo de build e inicialização dos containers.
 
 ### Acesso
 
