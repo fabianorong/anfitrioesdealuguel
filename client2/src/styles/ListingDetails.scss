@@ -1,0 +1,51 @@
+.accommodations-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    } 
+      
+    .accommodation-card {
+      transition: transform 0.3s;
+      
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  
+    .accommodation-link {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  
+  .accommodation-detail-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  
+    .accommodation-detail-card {
+      text-align: center;
+    }
+  
+    .back-button {
+      margin-top: 20px;
+    }
+  }
+  
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .error-message {
+    text-align: center;
+    color: red;
+  }
+  
+
