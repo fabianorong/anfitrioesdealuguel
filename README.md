@@ -23,14 +23,21 @@ docker-compose --version
 
 ### Passo 1: clonar o repositório
 
-no terminal ou execute:
+no terminal execute:
 
 ```bash
 git clone https://github.com/fabianorong/anfitrioesdealuguel
+```
+
+### Passo 2: Navegue até a pasta raiz do projeto
+
+no terminal execute:
+
+```bash
 cd anfitrioesdealuguel
 ```
 
-### Build and Run com Docker
+### Passo 3: Build and Run com Docker
 
 Execute o comando:
 
