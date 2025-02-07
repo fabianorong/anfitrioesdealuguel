@@ -37,7 +37,7 @@ docker-compose up --build
 
 ### Para Parar o Projeto
 
-Press `Ctrl + C` in the terminal or run:
+Pressione `Ctrl + C` no terminal ou execute:
 
 ```bash
 docker-compose down
